@@ -1,0 +1,645 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* header */
+
+.header-1 {
+    /* background-color: #fff;
+    box-shadow: 0 0 5px 0; */
+    width: 100%;
+    position: fixed;
+    z-index: 12;
+    top: 0;
+    left: 0;
+
+}
+
+.logo-img {
+    width: 100px;
+}
+
+.li-nav {
+    padding-right: 30px;
+}
+
+
+.a-home {
+    font-size: 15px;
+    color: #000;
+   display: ;
+
+}
+
+.a-home:hover {
+    color: #E45E4C;
+    border-bottom: 1px solid #E45E4C;
+
+}
+
+
+/* home-page */
+
+.home-page {
+    background-image: url(../image/young-woman-in-front-of-an-house-HA8ZUD6.jpg);
+    width: 100%;
+    padding: 200px 0;
+
+}
+
+.h2-jennifer {
+    font-size: 100px;
+    font-weight: normal;
+}
+
+.p-we {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* div-position */
+
+.div-position {
+    width: 60%;
+    background: #d2e5e7;
+    position: absolute;
+    left: 18%;
+    top: 100%;
+    z-index: 1;
+}
+
+.row-1 {
+    margin: 0;
+}
+
+
+.float-img {
+    float: right;
+}
+
+
+
+/* col-9 */
+
+.local-div {
+    padding: 30px;
+}
+
+.h3-coaching {
+    font-size: 37px;
+}
+
+.p-lorem {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.input-email {
+    font-size: 13px;
+    padding: 15px 10px;
+    width: 60%;
+    border: none;
+
+    outline: none;
+}
+
+.input-email:focus {
+    border: 1px solid #E45E4C;
+}
+
+.a-subscribe {
+    padding: 15px 32px;
+    background: #E45E4C;
+    font-size: 14px;
+    border: 2px solid #E45E4C;
+    color: #fff;
+    display: inline-block;
+
+}
+
+.a-subscribe:hover {
+    color: #E45E4C;
+    background-color: #fff;
+
+}
+
+
+/* health-section */
+
+.health-section {
+    background-color: #fbf7f5;
+    padding-top: 100px;
+    position: relative;
+}
+
+.p-the {
+    visibility: hidden;
+}
+
+
+
+/* lifestyle */
+
+.lifestyle {
+    background-color: #fbf7f5;
+    padding: 100px 0;
+}
+
+
+.img-beautiful {
+    position: absolute;
+    right: 5%;
+    top: -4%;
+
+}
+
+.span-learn {
+    color: #E45E4C;
+}
+
+.h3-life {
+    font-size: 45px;
+}
+
+.span-line {
+
+    width: 25%;
+    height: 1px;
+    background: #E45E4C;
+}
+
+.p-polished {
+    font-size: 15px;
+
+    width: 80%;
+    line-height: 25px;
+}
+
+.a-learn {
+    background-color: #E45E4C;
+    color: #fff;
+    padding: 18px 40px;
+    display: inline-block;
+    font-size: 14px;
+    transition: all .3s;
+
+
+}
+
+.a-learn:hover {
+    transform: scale(0.9);
+    color: #fff;
+
+}
+
+
+
+/* img-section */
+
+.smiling-img {
+    object-fit: cover;
+    object-position: top;
+}
+
+.h6-coaching {
+    position: absolute;
+    bottom: 2%;
+    left: 35%;
+    font-size: 15px;
+    color: #fff;
+}
+
+
+/* section-now */
+
+.section-now {
+    padding: 100px 0;
+    background-color: #d2e5e7;
+}
+
+.h3-now {
+    width: 70%;
+    margin: auto;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.span-melissa {
+    font-size: 14px;
+    font-weight: 500;
+    color: #E45E4C;
+}
+
+.img-smiling {
+    border-radius: 50%;
+}
+
+
+
+/* podcarts */
+
+.podcarts {
+    background-image: url(../image/kobu-agency-7okkFhxrxNw-unsplash.jpg);
+    width: 100%;
+    padding: 100px 0;
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.podcarts:after {
+    position: absolute;
+    content: "";
+    background: #474e52;
+    opacity: 0.8;
+    inset: 0;
+    width: 100%;
+
+}
+
+.index {
+    z-index: 11;
+    position: relative;
+}
+
+
+
+.h3-a {
+    font-size: 45px;
+}
+
+.span-line-2 {
+    width: 25%;
+    height: 1px;
+    background: #fff;
+}
+
+.p-finish {
+    font-size: 13px;
+
+    line-height: 25px;
+}
+
+/* number-div */
+
+.number-div {
+    background-color: #fff;
+    padding: 20px 0;
+    width: 80%;
+    position: absolute;
+    left: -21%;
+    bottom: -25%;
+}
+
+.span-8 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.h6-student {
+    font-size: 14px;
+}
+
+
+/* courses */
+
+.courses {
+    background-color: #f9f5f3;
+    padding: 100px 0;
+}
+
+.h3-my {
+    font-size: 45px;
+}
+
+
+
+
+/* card */
+
+.card-div {
+    background-color: #f9f5f3;
+    border: none;
+
+}
+
+.a-card-img {
+    transition: all .3s;
+    display: inline-block;
+}
+
+.a-card-img:hover {
+    transform: rotate(180deg);
+
+}
+
+.card-img {
+    border-radius: 0;
+}
+
+.h4-how {
+    font-size: 20px;
+    line-height: 35px;
+    color: #333333;
+}
+
+.icon-div {
+    font-size: 14px;
+}
+
+
+/* about */
+
+
+
+.about {
+    background-image: url(../image/sexy-woman-travel-countryside-alone-PSX5Z7V.jpg);
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+    background-size: cover;
+    position: relative;
+}
+
+.about::after {
+    position: absolute;
+    content: "";
+    background-color: #000;
+    inset: 0;
+    opacity: 0.2;
+    width: 100%;
+}
+
+.h2-about {
+    font-size: 100px;
+    line-height: 70px;
+}
+
+.span-line-3 {
+    background-color: #fff;
+    width: 40%;
+    height: 1px;
+}
+
+.p-elegant {
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.a-read {
+    padding: 17px 40px;
+    background: #fff;
+    font-size: 13px;
+    word-spacing: 2px;
+    color: #333333;
+    transition: all .3s;
+}
+
+.a-read:hover {
+    transform: scale(0.9);
+    color: #333333;
+}
+
+
+/* jkcoach */
+
+.jkcoach {
+    padding: 100px 0;
+    background-color: #faf6f4;
+}
+
+
+.span-join {
+    color: #E45E4C;
+    font-weight: 500;
+}
+
+.h2-jk {
+    font-size: 100px;
+
+}
+
+.a-img {
+    display: inline-block;
+    transition: all .3s;
+
+}
+
+.a-img:hover {
+    transform: rotate(10deg);
+}
+
+
+.p-court {
+    width: 50%;
+    margin: auto;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.a-come {
+    padding: 17px 40px;
+    background: #D9DBD5;
+    color: #333333;
+    font-size: 12px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    transition: all .3s;
+
+}
+
+.a-come:hover {
+    color: #333333;
+    transform: scale(0.9);
+}
+
+
+
+/* footer */
+
+.footer {
+    background-color: #3a3f42;
+    padding-top: 100px;
+}
+
+
+/* col-4 */
+
+.img-footer {
+    width: 150px;
+}
+
+.p-social {
+    color: #fff;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.ul-1 {}
+
+.fb-icon {
+    padding-right: 25px;
+    font-size: 28px;
+    color: #fff;
+}
+
+.fb-icon:hover {
+    color: #fff;
+}
+
+
+/* col-2 */
+
+.a-about {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.a-about:hover {
+    color: #fff;
+}
+
+
+/* col-2 */
+
+.a-member {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.a-member:hover {
+    color: #fff;
+}
+
+.p-copyright {
+    font-size: 13px;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+
+@media (max-width:767px) {
+
+    .h2 {
+        font-size: 60px;
+    }
+
+    .h2-jennifer {
+        font-size: 60px;
+    }
+
+    .p-we {
+        font-size: 15px;
+    }
+
+
+    .div-position {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 200%;
+
+    }
+
+    .float-img {
+        float: left;
+    }
+
+
+
+    .input-email {
+        width: 100%;
+    }
+
+    .a-subscribe {
+        display: block;
+        text-align: center;
+    }
+
+    .img-beautiful {
+        position: absolute;
+        right: 35%;
+    }
+
+    .h3-life {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .h6-coaching {
+        position: absolute;
+        left: 30%;
+    }
+
+    .h3-now {
+        width: 100%;
+
+        font-size: 21px;
+        line-height: 40px;
+    }
+
+    .h3-a {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .number-div {
+        position: static;
+        margin: auto;
+    }
+
+    .h2-about {
+        font-size: 60px;
+    }
+
+    .p-elegant {
+        font-size: 13px;
+    }
+
+
+    .h2-jk {
+        font-size: 60px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media (max-width:991px) {
+
+
+    .img-beautiful {
+        position: absolute;
+        right: 35%;
+    }
+    
+    .number-div {
+        position: static;
+        margin: auto;
+    }
+
+
+}
+
+
+@media (max-width:1199px) {}
